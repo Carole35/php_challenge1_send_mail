@@ -1,0 +1,32 @@
+body {
+	margin:auto;
+	width:900px;
+}
+
+h1 {
+	text-align:center;
+}
+
+img{
+	float:left;
+}
+
+form {
+	margin-top:100px;
+	margin-left:350px;
+}
+input:invalid {
+  background-color: #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:valide {
+  border-color: #008000;
